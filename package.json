@@ -1,0 +1,30 @@
+{
+  "name": "edger",
+  "version": "1.0.1",
+  "description": "generate hard edges for voxel data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require coffee-script --compilers coffee:coffee-script/register test"
+  },
+  "author": "Will Zhou <will3.git@gmail.com> (http://github.com/will3)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "ndarray": "^1.0.18"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ndarray": "^1.0.18",
+    "chai": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/will3/edger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/will3/edger/issues"
+  },
+  "homepage": "https://github.com/will3/edger#readme"
+}
